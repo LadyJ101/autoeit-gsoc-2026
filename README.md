@@ -12,7 +12,7 @@ Email: joyabioye884@gmail.com
 - outputs/scored_output.xlsx : automated scores (sentence-level)
 - outputs/scored_summary.csv : summary statistics
 - requirements.txt : pinned dependencies
-- CV_Joy_Abioye.pdf : CV
+- C
 
 ## How to reproduce
 1. Clone the repo and switch to branch `feat/autoeit-gsoc-2026-scoring`.
