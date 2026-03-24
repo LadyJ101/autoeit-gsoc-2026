@@ -1,0 +1,40 @@
+sheet_name,row_index,Sentence,Stimulus_clean,Transcription_clean,token_ratio,char_ratio,Score_manual
+38001-1A,6,7,las calles de esta ciudad son muy anchas,las calles de esta cuidad son muy anchas,0.975,0.975,3
+38001-1A,7,8,puede que llueva manana todo el dia,puede que lleva manana todo el dia,0.9855072463768115,0.9855072463768118,3
+38001-1A,8,9,las casas son muy bonitas pero caras,las casas son muy bonitas pero muy cadas,0.9722222222222223,0.9210526315789473,3
+38001-1A,12,13,quiero una casa en la que vivan mis animales,quiero una casa que vivan los animales,0.9444444444444444,0.878048780487805,2
+38001-1A,13,14,a nosotros nos fascinan las fiestas grandiosas,a nosotros nos fascina los fiestas grandiosos,0.9450549450549451,0.9450549450549449,2
+38001-1A,15,16,me gustaria que el precio de las casas bajara,me gustaria que las precios de las casas bajaron,0.9213483146067416,0.9247311827956989,2
+38001-1A,17,18,ella ha terminado de pintar su apartamento,ella ha terminado pintando su apartamento,0.9156626506024097,0.9156626506024097,2
+38001-1A,18,19,me gustaria que empezara a hacer mas calor pronto,me gustaria se mas calor,0.9333333333333332,0.6301369863013699,2
+38001-1A,19,20,el nino al que se le murio el gato esta triste,el nino que se murio su gato es triste,0.9142857142857143,0.8571428571428572,2
+38001-1A,21,22,el gato que era negro fue perseguido por el perro,el gato que era negro era perseguido de l perro,0.9382716049382717,0.8958333333333335,2
+38001-1A,22,23,antes de poder salir el tiene que limpiar su cuarto,antes de salir el tiene que limpiar su cuarto,1.0,0.9375,2
+38001-1A,23,24,la cantidad de personas que fuman ha disminuido,la cantidad de personas que fuman ha desmenido,0.946236559139785,0.946236559139785,2
+38001-1A,24,25,despues de llegar a casa del trabajo tome la cena,despues de llegar a casa del trabajo se meh,0.9113924050632911,0.8695652173913043,2
+38001-1A,25,26,el ladron al que atrapo la policia era famoso,el ladron que atrapo la policia era famoso,1.0,0.9655172413793103,3
+38001-1A,27,28,el examen no fue tan dificil como me habian dicho,el examen no fue tan dificil como me decian,0.9130434782608695,0.8695652173913043,2
+38001-1A,28,29,serias tan amable de darme el libro que esta en la mesa,serias tan amable pa darme el libro que esta en la mesa,0.9719626168224299,0.9636363636363636,3
+38001-1A,29,30,hay mucha gente que no toma nada para el desayuno,hay mucha genta que no to toma nada para el desayuno,0.9504950495049505,0.9504950495049505,3
+38002-2A,7,8,puede que llueva manana todo el dia,puede que manana todo la dia,0.9433962264150944,0.8571428571428572,2
+38002-2A,10,11,el chico con el que yo salgo es espanol,el chico con espanol,1.0,0.6779661016949151,2
+38002-2A,19,20,el nino al que se le murio el gato esta triste,el nino se murio el gato y triste,0.9655172413793103,0.8101265822784811,3
+38002-2A,24,25,despues de llegar a casa del trabajo tome la cena,despues de llegar la casa pone cena,0.923076923076923,0.7619047619047619,2
+38004-2A,2,3,el carro lo tiene pedro,el carro tiene pedro,1.0,0.9302325581395349,2
+38004-2A,4,5,que dice usted que va a hacer hoy,que dices usted vas hacer hoy,0.9310344827586207,0.8709677419354839,2
+38004-2A,6,7,las calles de esta ciudad son muy anchas,las calles de esta ciudad es muy anchas,0.9620253164556962,0.9620253164556962,3
+38004-2A,7,8,puede que llueva manana todo el dia,pueda que llueva manana todo dia,0.9253731343283582,0.9253731343283582,2
+38004-2A,8,9,las casas son muy bonitas pero caras,las casas son muy bonitas para caras,0.9444444444444444,0.9444444444444444,2
+38004-2A,11,12,despues de cenar me fui a dormir tranquilo,despues de cenar fui a dormir tranquilo,1.0,0.962962962962963,3
+38004-2A,14,15,ella solo bebe cerveza y no come nada,ella solo cerveza y como nada,0.9056603773584905,0.8484848484848484,2
+38004-2A,15,16,me gustaria que el precio de las casas bajara,me gustaria que los precios de la casa bajara,0.9333333333333332,0.9333333333333332,2
+38004-2A,17,18,ella ha terminado de pintar su apartamento,ella se terminar pintar su apartamento,0.9,0.875,2
+38004-2A,19,20,el nino al que se le murio el gato esta triste,el nino que se murio su gato es triste,0.9142857142857143,0.8571428571428572,2
+38004-2A,24,25,despues de llegar a casa del trabajo tome la cena,despues de llegar a de trabajo cena a mi casa,0.961038961038961,0.7872340425531915,3
+38004-2A,26,27,le pedi a un amigo que me ayudara con la tarea,le pedi un amigo que me ayuda con la tarea,0.9545454545454546,0.9545454545454546,3
+38004-2A,27,28,el examen no fue tan dificil como me habian dicho,el examen no a va a fue a tan dificil,0.9180327868852458,0.6511627906976745,2
+38004-2A,29,30,hay mucha gente que no toma nada para el desayuno,hay mucha gente que no toma tiempo para desayuno,0.9213483146067416,0.865979381443299,2
+38006-2A,0,1,quiero cortarme el pelo,quiero cortarme mi pelo,0.9302325581395349,0.9130434782608696,2
+38006-2A,1,2,el libro esta en la mesa,el libro pause esta en la mesa,1.0,0.8888888888888888,2
+38006-2A,3,4,el se ducha cada manana,el se lucha cada manana,0.9565217391304348,0.9565217391304348,3
+38006-2A,28,29,serias tan amable de darme el libro que esta en la mesa,el libro que esta en la mesa,1.0,0.6746987951807228,2

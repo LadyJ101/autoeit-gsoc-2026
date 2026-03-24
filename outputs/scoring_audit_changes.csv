@@ -1,0 +1,121 @@
+sheet_name,row_index,Sentence,Stimulus_clean,Transcription_clean,token_ratio,char_ratio,Score_manual
+38001-1A,0,1,quiero cortarme el pelo,quiero cortarme el pelo,1.0,1.0,4
+38001-1A,1,2,el libro esta en la mesa,el libro esta en la mesa,1.0,1.0,4
+38001-1A,2,3,el carro lo tiene pedro,el carro lo tiene pedro,1.0,1.0,4
+38001-1A,3,4,el se ducha cada manana,el se ducha cada manana,1.0,1.0,4
+38001-1A,4,5,que dice usted que va a hacer hoy,que dices ustedes se que van a hacer hoy,0.8923076923076922,0.904109589041096,2
+38001-1A,5,6,dudo que sepa manejar muy bien,dudo que sepa manajar bien,0.8928571428571429,0.8928571428571429,2
+38001-1A,6,7,las calles de esta ciudad son muy anchas,las calles de esta cuidad son muy anchas,0.975,0.975,3
+38001-1A,7,8,puede que llueva manana todo el dia,puede que lleva manana todo el dia,0.9855072463768115,0.9855072463768118,3
+38001-1A,8,9,las casas son muy bonitas pero caras,las casas son muy bonitas pero muy cadas,0.9722222222222223,0.9210526315789473,3
+38001-1A,9,10,me gustan las peliculas que acaban bien,me gustan las peliculas que acaban bien,1.0,1.0,4
+38001-1A,10,11,el chico con el que yo salgo es espanol,el chico con yo salgo um esta bien,0.8285714285714286,0.7397260273972602,2
+38001-1A,11,12,despues de cenar me fui a dormir tranquilo,despues de cenar me fui a dormir tranquilo,1.0,1.0,4
+38001-1A,12,13,quiero una casa en la que vivan mis animales,quiero una casa que vivan los animales,0.9444444444444444,0.878048780487805,2
+38001-1A,13,14,a nosotros nos fascinan las fiestas grandiosas,a nosotros nos fascina los fiestas grandiosos,0.9450549450549451,0.9450549450549449,2
+38001-1A,14,15,ella solo bebe cerveza y no come nada,ella solo bebe cerveza y no come nada,1.0,1.0,4
+38001-1A,15,16,me gustaria que el precio de las casas bajara,me gustaria que las precios de las casas bajaron,0.9213483146067416,0.9247311827956989,2
+38001-1A,16,17,cruza a la derecha y despues sigue todo recto,cruza a la derecha y sigue a la izquierda,0.8387096774193549,0.6744186046511628,2
+38001-1A,17,18,ella ha terminado de pintar su apartamento,ella ha terminado pintando su apartamento,0.9156626506024097,0.9156626506024097,2
+38001-1A,18,19,me gustaria que empezara a hacer mas calor pronto,me gustaria se mas calor,0.9333333333333332,0.6301369863013699,2
+38001-1A,19,20,el nino al que se le murio el gato esta triste,el nino que se murio su gato es triste,0.9142857142857143,0.8571428571428572,2
+38001-1A,20,21,una amiga mia cuida a los ninos de mi vecino,una amiga de mio cuida su ninos de vecino,0.8985507246376812,0.8470588235294118,2
+38001-1A,21,22,el gato que era negro fue perseguido por el perro,el gato que era negro era perseguido de l perro,0.9382716049382717,0.8958333333333335,2
+38001-1A,22,23,antes de poder salir el tiene que limpiar su cuarto,antes de salir el tiene que limpiar su cuarto,1.0,0.9375,2
+38001-1A,23,24,la cantidad de personas que fuman ha disminuido,la cantidad de personas que fuman ha desmenido,0.946236559139785,0.946236559139785,2
+38001-1A,24,25,despues de llegar a casa del trabajo tome la cena,despues de llegar a casa del trabajo se meh,0.9113924050632911,0.8695652173913043,2
+38001-1A,25,26,el ladron al que atrapo la policia era famoso,el ladron que atrapo la policia era famoso,1.0,0.9655172413793103,3
+38001-1A,26,27,le pedi a un amigo que me ayudara con la tarea,le pedi a un amigo que me ayudara con la tarea,1.0,1.0,4
+38001-1A,27,28,el examen no fue tan dificil como me habian dicho,el examen no fue tan dificil como me decian,0.9130434782608695,0.8695652173913043,2
+38001-1A,28,29,serias tan amable de darme el libro que esta en la mesa,serias tan amable pa darme el libro que esta en la mesa,0.9719626168224299,0.9636363636363636,3
+38001-1A,29,30,hay mucha gente que no toma nada para el desayuno,hay mucha genta que no to toma nada para el desayuno,0.9504950495049505,0.9504950495049505,3
+38002-2A,0,1,quiero cortarme el pelo,quiero cortarme el pelo,1.0,1.0,4
+38002-2A,1,2,el libro esta en la mesa,el libro esta en la mesa,1.0,1.0,4
+38002-2A,2,3,el carro lo tiene pedro,el carro tiene pelo,0.8571428571428571,0.8571428571428572,2
+38002-2A,3,4,el se ducha cada manana,el se ducha cada manana,1.0,1.0,4
+38002-2A,4,5,que dice usted que va a hacer hoy,en que ustedes x uf x hacer hoy,0.7586206896551724,0.6875,2
+38002-2A,5,6,dudo que sepa manejar muy bien,dudo tu no sepiar exx muy bien,0.7,0.7333333333333334,2
+38002-2A,6,7,las calles de esta ciudad son muy anchas,la calles esten xxxx muy anchas,0.7083333333333333,0.704225352112676,2
+38002-2A,7,8,puede que llueva manana todo el dia,puede que manana todo la dia,0.9433962264150944,0.8571428571428572,2
+38002-2A,8,9,las casas son muy bonitas pero caras,las casas muy bonitos pero casas,0.8181818181818181,0.8823529411764706,2
+38002-2A,9,10,me gustan las peliculas que acaban bien,me gustan las peliculas campan bien,0.8918918918918919,0.8918918918918919,2
+38002-2A,10,11,el chico con el que yo salgo es espanol,el chico con espanol,1.0,0.6779661016949151,2
+38002-2A,11,12,despues de cenar me fui a dormir tranquilo,despues de finar el dormir xxx,0.7234042553191489,0.6666666666666667,2
+38002-2A,12,13,quiero una casa en la que vivan mis animales,quiere una casa con animales,0.7555555555555555,0.6944444444444444,2
+38002-2A,13,14,a nosotros nos fascinan las fiestas grandiosas,a nosotros fana xxx fiestas grandinosas,0.8235294117647058,0.8235294117647058,2
+38002-2A,14,15,ella solo bebe cerveza y no come nada,ella xxx no beber querer,0.5573770491803279,0.4918032786885246,2
+38002-2A,15,16,me gustaria que el precio de las casas bajara,me gusta el casa xxx,0.5230769230769231,0.523076923076923,1
+38002-2A,16,17,cruza a la derecha y despues sigue todo recto,en quises a la derecha xxx,0.631578947368421,0.4225352112676056,2
+38002-2A,17,18,ella ha terminado de pintar su apartamento,ella tiene termino xx apartamento,0.653061224489796,0.6933333333333335,2
+38002-2A,18,19,me gustaria que empezara a hacer mas calor pronto,me gusta que d crxxx calor pranto,0.6341463414634146,0.6829268292682926,2
+38002-2A,19,20,el nino al que se le murio el gato esta triste,el nino se murio el gato y triste,0.9655172413793103,0.8101265822784811,3
+38002-2A,20,21,una amiga mia cuida a los ninos de mi vecino,una amigo que nina ha cuidado,0.6575342465753425,0.5205479452054795,2
+38002-2A,21,22,el gato que era negro fue perseguido por el perro,el gato negro se fuera el perro son,0.7450980392156863,0.6428571428571428,2
+38002-2A,22,23,antes de poder salir el tiene que limpiar su cuarto,antes de salir limpio el caso,0.7391304347826088,0.625,2
+38002-2A,23,24,la cantidad de personas que fuman ha disminuido,la cantidad de las personas fe xxx fumar,0.735632183908046,0.6896551724137931,2
+38002-2A,24,25,despues de llegar a casa del trabajo tome la cena,despues de llegar la casa pone cena,0.923076923076923,0.7619047619047619,2
+38002-2A,25,26,el ladron al que atrapo la policia era famoso,el xxx la policia es famoso,0.851063829787234,0.6388888888888888,2
+38002-2A,26,27,le pedi a un amigo que me ayudara con la tarea,le pedi un amigo con ayuda con mi tarea,0.8524590163934427,0.8,2
+38002-2A,27,28,el examen no fue tan dificil como me habian dicho,el examen no es dificil cuando me xxx,0.7666666666666667,0.6744186046511628,2
+38002-2A,28,29,serias tan amable de darme el libro que esta en la mesa,el libro estan en la mesa,0.8636363636363636,0.6,2
+38002-2A,29,30,hay mucha gente que no toma nada para el desayuno,hay mucho gente no quiere desayuno,0.7636363636363636,0.6987951807228916,2
+38004-2A,0,1,quiero cortarme el pelo,quiero cortarme el pelo,1.0,1.0,4
+38004-2A,1,2,el libro esta en la mesa,el libro esta en la mesa,1.0,1.0,4
+38004-2A,2,3,el carro lo tiene pedro,el carro tiene pedro,1.0,0.9302325581395349,2
+38004-2A,3,4,el se ducha cada manana,el se ducha cada manana,1.0,1.0,4
+38004-2A,4,5,que dice usted que va a hacer hoy,que dices usted vas hacer hoy,0.9310344827586207,0.8709677419354839,2
+38004-2A,5,6,dudo que sepa manejar muy bien,dudo que sepa manejar muy bien,1.0,1.0,4
+38004-2A,6,7,las calles de esta ciudad son muy anchas,las calles de esta ciudad es muy anchas,0.9620253164556962,0.9620253164556962,3
+38004-2A,7,8,puede que llueva manana todo el dia,pueda que llueva manana todo dia,0.9253731343283582,0.9253731343283582,2
+38004-2A,8,9,las casas son muy bonitas pero caras,las casas son muy bonitas para caras,0.9444444444444444,0.9444444444444444,2
+38004-2A,9,10,me gustan las peliculas que acaban bien,mis gus me gustas las peliculas que cada bien,0.8333333333333333,0.8333333333333335,2
+38004-2A,10,11,el chico con el que yo salgo es espanol,el chico con esolago es yo algo es espanol,0.8533333333333333,0.8888888888888888,2
+38004-2A,11,12,despues de cenar me fui a dormir tranquilo,despues de cenar fui a dormir tranquilo,1.0,0.962962962962963,3
+38004-2A,12,13,quiero una casa en la que vivan mis animales,queda una ca quiere una casa en queda mis animales mis animales quedan,0.7912087912087913,0.6666666666666667,2
+38004-2A,13,14,a nosotros nos fascinan las fiestas grandiosas,a nosotros fascinmas festivales,0.7012987012987013,0.7012987012987013,2
+38004-2A,14,15,ella solo bebe cerveza y no come nada,ella solo cerveza y como nada,0.9056603773584905,0.8484848484848484,2
+38004-2A,15,16,me gustaria que el precio de las casas bajara,me gustaria que los precios de la casa bajara,0.9333333333333332,0.9333333333333332,2
+38004-2A,16,17,cruza a la derecha y despues sigue todo recto,sigue a la derecha y cruzo a la directo y sique a la directo,0.7764705882352942,0.5904761904761905,2
+38004-2A,17,18,ella ha terminado de pintar su apartamento,ella se terminar pintar su apartamento,0.9,0.875,2
+38004-2A,18,19,me gustaria que empezara a hacer mas calor pronto,me gustaria hacer xx calores pronto,0.8135593220338982,0.7380952380952381,2
+38004-2A,19,20,el nino al que se le murio el gato esta triste,el nino que se murio su gato es triste,0.9142857142857143,0.8571428571428572,2
+38004-2A,20,21,una amiga mia cuida a los ninos de mi vecino,una amiga mia cuidado a los vecinos,0.8607594936708861,0.8101265822784811,2
+38004-2A,21,22,el gato que era negro fue perseguido por el perro,el gato que es negro cough,0.7906976744186046,0.5866666666666667,2
+38004-2A,22,23,antes de poder salir el tiene que limpiar su cuarto,antes de salir tienes xxx cu cuarto,0.75,0.6976744186046511,2
+38004-2A,23,24,la cantidad de personas que fuman ha disminuido,la cantidad de personas que fu han fumado se distruy,0.8080808080808081,0.7878787878787878,2
+38004-2A,24,25,despues de llegar a casa del trabajo tome la cena,despues de llegar a de trabajo cena a mi casa,0.961038961038961,0.7872340425531915,3
+38004-2A,25,26,el ladron al que atrapo la policia era famoso,la ladron que atropo la policia es famoso,0.8674698795180723,0.8837209302325582,2
+38004-2A,26,27,le pedi a un amigo que me ayudara con la tarea,le pedi un amigo que me ayuda con la tarea,0.9545454545454546,0.9545454545454546,3
+38004-2A,27,28,el examen no fue tan dificil como me habian dicho,el examen no a va a fue a tan dificil,0.9180327868852458,0.6511627906976745,2
+38004-2A,28,29,serias tan amable de darme el libro que esta en la mesa,sales de donde esta mi libro en esta mesa,0.736842105263158,0.625,2
+38004-2A,29,30,hay mucha gente que no toma nada para el desayuno,hay mucha gente que no toma tiempo para desayuno,0.9213483146067416,0.865979381443299,2
+38006-2A,0,1,quiero cortarme el pelo,quiero cortarme mi pelo,0.9302325581395349,0.9130434782608696,2
+38006-2A,1,2,el libro esta en la mesa,el libro pause esta en la mesa,1.0,0.8888888888888888,2
+38006-2A,2,3,el carro lo tiene pedro,e gibberish perro,0.35,0.44999999999999996,1
+38006-2A,3,4,el se ducha cada manana,el se lucha cada manana,0.9565217391304348,0.9565217391304348,3
+38006-2A,4,5,que dice usted que va a hacer hoy,que gibberish que vas estoy,0.4615384615384615,0.6,1
+38006-2A,5,6,dudo que sepa manejar muy bien,dudo que sepa ma mastar tan bien tambien,0.75,0.6857142857142857,2
+38006-2A,6,7,las calles de esta ciudad son muy anchas,las calles es gibberish,0.6060606060606061,0.5396825396825398,2
+38006-2A,7,8,puede que llueva manana todo el dia,puede xxx manana de todo dia,0.8571428571428571,0.6984126984126984,2
+38006-2A,8,9,las casas son muy bonitas pero caras,a las casa es mu son bonitas,0.8125,0.65625,2
+38006-2A,9,10,me gustan las peliculas que acaban bien,me gusta las peliculas que x bien,0.8620689655172414,0.8888888888888888,2
+38006-2A,10,11,el chico con el que yo salgo es espanol,el chico con es el algo xxx es espanol,0.8529411764705883,0.8311688311688311,2
+38006-2A,11,12,despues de cenar me fui a dormir tranquilo,despues de fenar mi fui a tranquilo,0.8831168831168832,0.8571428571428572,2
+38006-2A,12,13,quiero una casa en la que vivan mis animales,quienen que en el casa muchos animales,0.7804878048780488,0.6097560975609756,2
+38006-2A,13,14,a nosotros nos fascinan las fiestas grandiosas,a nosotros fanimos pause fiestas grandiosas,0.8089887640449439,0.8089887640449437,2
+38006-2A,14,15,ella solo bebe cerveza y no come nada,ella bebidas cerviamos y no comidas,0.7222222222222223,0.6944444444444444,2
+38006-2A,15,16,me gustaria que el precio de las casas bajara,me gustaria ser ella mhh,0.6285714285714286,0.5507246376811594,2
+38006-2A,16,17,cruza a la derecha y despues sigue todo recto,cruze a la derecha de siguelo,0.7297297297297297,0.7297297297297297,2
+38006-2A,17,18,ella ha terminado de pintar su apartamento,ella terminado pintar a sus apartmento,0.875,0.875,2
+38006-2A,18,19,me gustaria que empezara a hacer mas calor pronto,me gustaria se pause xxx pronto,0.7346938775510204,0.625,2
+38006-2A,19,20,el nino al que se le murio el gato esta triste,el nino se murio el gato es muy triste,0.8888888888888888,0.8095238095238095,2
+38006-2A,20,21,una amiga mia cuida a los ninos de mi vecino,una mia amiga cuidado a sus ninos,0.7792207792207791,0.7012987012987013,2
+38006-2A,21,22,el gato que era negro fue perseguido por el perro,el gato el gato quien era el nego de perro,0.7272727272727272,0.6373626373626373,2
+38006-2A,22,23,antes de poder salir el tiene que limpiar su cuarto,antes de podai e salir pause antes de xxx,0.6086956521739131,0.5869565217391304,2
+38006-2A,23,24,la cantidad de personas que fuman ha disminuido,a la cantan pause muy a xxx,0.4444444444444444,0.4864864864864865,1
+38006-2A,24,25,despues de llegar a casa del trabajo tome la cena,despues de llegar pause al trabajo,0.847457627118644,0.7228915662650602,2
+38006-2A,25,26,el ladron al que atrapo la policia era famoso,x ladrona de policio que es famoso,0.708860759493671,0.6582278481012658,2
+38006-2A,26,27,le pedi a un amigo que me ayudara con la tarea,que ped x una amigo pause a su tarea,0.6829268292682927,0.6585365853658536,2
+38006-2A,27,28,el examen no fue tan dificil como me habian dicho,el examen no dificil pause gibberish,0.7142857142857143,0.611764705882353,2
+38006-2A,28,29,serias tan amable de darme el libro que esta en la mesa,el libro que esta en la mesa,1.0,0.6746987951807228,2
+38006-2A,29,30,hay mucha gente que no toma nada para el desayuno,a mucha gente xxx,0.7857142857142857,0.4242424242424242,2
