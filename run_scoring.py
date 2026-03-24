@@ -1,5 +1,3 @@
-%%bash
-cat > "/content/drive/MyDrive/AutoEIT Test Files/Sample Audio Files and Transcriptions/run_scoring.py" <<'PY'
 #!/usr/bin/env python3
 """
 run_scoring.py
@@ -86,6 +84,8 @@ def process_workbook(input_path, output_path, audit_path,
         df = df.copy()
         stim_col = None
         trans_col = None
+
+        # Try exact matches
         for cand in (stimulus_col_candidates or ["stimulus", "stimulus_clean", "prompt", "target"]):
             for c in df.columns:
                 if c.lower() == cand.lower():
@@ -93,6 +93,7 @@ def process_workbook(input_path, output_path, audit_path,
                     break
             if stim_col:
                 break
+
         for cand in (transcription_col_candidates or ["transcription", "transcription_clean", "response", "utterance"]):
             for c in df.columns:
                 if c.lower() == cand.lower():
@@ -101,11 +102,13 @@ def process_workbook(input_path, output_path, audit_path,
             if trans_col:
                 break
 
+        # Fallback substring detection
         if stim_col is None:
             for c in df.columns:
                 if "stim" in c.lower() or "prompt" in c.lower() or "target" in c.lower():
                     stim_col = c
                     break
+
         if trans_col is None:
             for c in df.columns:
                 if "trans" in c.lower() or "response" in c.lower() or "utter" in c.lower():
@@ -113,7 +116,10 @@ def process_workbook(input_path, output_path, audit_path,
                     break
 
         if stim_col is None or trans_col is None:
-            raise ValueError(f"Could not detect stimulus/transcription columns in sheet '{sheet_name}'. Columns found: {list(df.columns)}")
+            raise ValueError(
+                f"Could not detect stimulus/transcription columns in sheet '{sheet_name}'. "
+                f"Columns found: {list(df.columns)}"
+            )
 
         df["Stimulus_clean"] = df[stim_col].apply(clean_text)
         df["Transcription_clean"] = df[trans_col].apply(clean_text)
@@ -123,12 +129,11 @@ def process_workbook(input_path, output_path, audit_path,
             if c.lower() in ("score_manual", "score_before", "score"):
                 prev_score_col = c
                 break
-        if prev_score_col:
-            df["Score_before"] = df[prev_score_col]
-        else:
-            df["Score_before"] = pd.NA
 
-        df["Score_manual"] = df.apply(lambda r: assign_score(r["Stimulus_clean"], r["Transcription_clean"]), axis=1)
+        df["Score_before"] = df[prev_score_col] if prev_score_col else pd.NA
+        df["Score_manual"] = df.apply(
+            lambda r: assign_score(r["Stimulus_clean"], r["Transcription_clean"]), axis=1
+        )
 
         mask_changed = (df["Score_before"].isna()) | (df["Score_before"] != df["Score_manual"])
         changed = df.loc[mask_changed].copy()
@@ -138,10 +143,12 @@ def process_workbook(input_path, output_path, audit_path,
 
         out_sheets[sheet_name] = df
 
+    # Write scored workbook
     with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
         for name, out_df in out_sheets.items():
             out_df.to_excel(writer, sheet_name=name, index=False)
 
+    # Write audit CSV
     if changed_rows:
         audit_df = pd.concat(changed_rows, ignore_index=True)
         cols = ["sheet_name", "Score_before", "Score_manual", "Stimulus_clean", "Transcription_clean"]
@@ -149,12 +156,15 @@ def process_workbook(input_path, output_path, audit_path,
         audit_df = audit_df[[c for c in cols if c in audit_df.columns] + other_cols]
         audit_df.to_csv(audit_path, index=False)
     else:
-        pd.DataFrame(columns=["sheet_name", "Score_before", "Score_manual", "Stimulus_clean", "Transcription_clean"]).to_csv(audit_path, index=False)
+        pd.DataFrame(columns=[
+            "sheet_name", "Score_before", "Score_manual",
+            "Stimulus_clean", "Transcription_clean"
+        ]).to_csv(audit_path, index=False)
 
     total_changed = sum(len(df) for df in changed_rows) if changed_rows else 0
     print("Input workbook:", input_path)
     print("Scored workbook written to:", output_path)
-    print("Audit CSV written to:", audit_path, " (rows changed: {})".format(total_changed))
+    print("Audit CSV written to:", audit_path, f"(rows changed: {total_changed})")
 
 def main():
     parser = argparse.ArgumentParser(description="Run scoring pass on AutoEIT workbook.")
@@ -167,6 +177,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-PY
-chmod +x "/content/drive/MyDrive/AutoEIT Test Files/Sample Audio Files and Transcriptions/run_scoring.py"
-echo "Created run_scoring.py at /content/drive/MyDrive/AutoEIT Test Files/Sample Audio Files and Transcriptions/"
